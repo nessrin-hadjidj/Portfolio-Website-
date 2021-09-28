@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.portfolio {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+  }
+  .portfolioContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+
+  }
+  .portfolioContainer figure {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .portfolioContainer figure:hover {
+    transform: scale(1.1);
+  }
