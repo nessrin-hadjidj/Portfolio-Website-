@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="logo">AyishaAlli.</h1>
+        <nav>
+          <ul>
+            <a href="#home" class="navLink"><li>Home</li></a>
+            <a href="#about" class="navLink"><li>About</li></a>
+            <a href="#services" class="navLink"><li>Services</li></a>
+            <a href="#contact" class="navLink"><li>Contact</li></a>
+            <a href="#portfolio" class="navLink"><li>Portfolio</li></a>
+          </ul>
+        </nav>
+      </header>
+      <div class="sectionOne">
+        <h2 class="heroTitle">Greetings!</h2>
+        <p class="heroText">Full Stack Web Developer at your service.</p>
+        <a href="#contact"><button id="contactBtn" class="contactBtn" >Contact Me</button></a>
+      </div>
+      <div class="sectionTwo aboutMe" id="about">
+        <img
+          src="/Photos/IMG_3176.jpg"
+          alt="girl smiling"
+          width="250px"
+          height="250px"
+        />
+        <div class="aboutMeText">
+          <h2 style="margin-bottom: 25px;">About Me</h2>
+          <p>
+            I am a self taught Frontend Web Developer with some backend experience. I am passionate about technology and love what I do. Im always keen on learning new languages and keeping up to date.
+            <ul><p style="margin-bottom: 10px;">Experience : </p>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git/Github</li>
+              <li>UIUX Design</li>
+               
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="backgroundImage1"></div>
+      <div class="sectionThree services" id="services">
+        <h2>SERVICES</h2>
+        <div class="servicesIconsContainer">
+          <figure servicesIcon><i class="fas fa-laptop"></i><figcaption>HTMS, CSS3 & JavaScript</figcaption></figure>
+          <figure servicesIcon><i class="fas fa-pen"></i><figcaption>UX/UI Design</figcaption></figure>
+          <figure servicesIcon><i class="fas fa-mobile-alt"></i><figcaption>App Developement</figcaption></figure>  
+        </div>
+        
+      </div>
+      <div class="backgroundImage2"></div>
+      <div class="sectionFour portfolio" id="portfolio">
+        <h2 class="portfolioTitle" style="margin-bottom: 50px;">PORTFOLIO</h2>
+        <div class="portfolioContainer">
+          <figure><img src="https://i.stack.imgur.com/y9DpT.jpg" alt="placeholder" width="150px" height="150px"><figcaption>Survey Form</figcaption></figure>
+          <figure><img src="https://i.stack.imgur.com/y9DpT.jpg" alt="placeholder" width="150px" height="150px"><figcaption>Website Redesign</figcaption></figure>
+          <figure><img src="https://i.stack.imgur.com/y9DpT.jpg" alt="placeholder" width="150px" height="150px"><figcaption>Multiplayer Game</figcaption></figure>
+        </div>
+        <a href="/portfolio.html"><button id="seeAll">See All</button></a>
+      </div>
+      <div class="backgroundImage3"></div>
+      <div class="section5 contactMe" id="contact">
+        <h2>CONTACT ME</h2>
+        <form method="post" action="contact.php">
+          <div class="inputContainer">
+            <div class="userDetails">
+              <input type="text" name="name" id="fullName" placeholder="Full Name" pattern=[A-Z\sa-z]{3,20} required>
+              <input type="number" name="number" id="number" placeholder="Contact Number" required>
+              <input type="email" name="email" id="email" placeholder="Email Address" required>   
+            </div>
+            <div class="userMessage">
+              <input type="text" name="message" id="message" placeholder="Message:" required>
+            </div> 
+          </div>
+          
+          <input type="submit" value="Send Message" id="submitBtn" class="submitBtn"> 
+        </form>
+      </div>
+      <div class="sectionFive socialMedia">
+        <a href="https://github.com/AyishaAlli" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/ayishaalli.dev/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/ayishaalli_dev" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/ayisha-alli-a4a378144/" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
+    </div>
+  </body>
+  <footer>
+      &copy; All Rights Reserved By Ayishaalli.COM 
+  </footer>
+</html>
